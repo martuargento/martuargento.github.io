@@ -1,0 +1,117 @@
+/* body */
+body{
+  background: url(https://previews.123rf.com/images/ngonhan/ngonhan1502/ngonhan150200233/36212113-bandera-de-argentina-en-la-textura-del-metal-met%C3%A1lico.jpg);
+  background-position: center 15% ;
+}
+
+/* titulo principal */
+#title{
+  background-color: LightCyan;
+  text-align: center;
+  border-radius: 50px;
+}
+
+#fuentedetitulo{
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 50px;
+}
+
+
+#fuentedesubtitulo{
+  font-size: 15px;
+  font-family: 'Permanent Marker', cursive;
+}
+
+/* imagen principal */
+#img-div{
+  text-align: center;
+  justify-content: center;
+    max-width: 100%;
+}
+
+#image{
+  max-width: 100%;
+  height: auto;
+}
+
+img{
+  display:block;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 55px;
+}
+
+/* texto por debajo de la imagen principal */
+#img-caption{
+  display:flex;
+  justify-content: center;
+    max-width: 100%;
+    font-size: 40px;
+    font-family: 'Kaushan Script', cursive;
+}
+
+#headline{
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  font-family: 'BhuTuka Expanded One', cursive;
+  text-align: center;
+}
+
+/* lista de los titulos */
+
+#listadetitulos{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  top: -18px;
+  align-items: center;
+  background-color: rgba(81, 209, 246, 0.5);
+  border-radius: 40px;
+  color:white;
+  font-family: monospace;
+  width: 850px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+  margin-right: 20px;
+  text-align: center;
+}
+
+ul{
+width: 100px;
+height: 200px;
+}
+
+li{
+  width: 200px;
+  height: 200px;
+  overflow: visible;
+}
+
+/* cita de bielsa */
+.lamezcla{
+  margin-right: 150px;
+  text-align:  right;
+  font-family: 'Great Vibes', cursive;
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+/* pie de pagina */
+.piedepagina{
+  margin-top: 100px;
+  text-align: right;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.linkapaginaseleccionargentina{
+  text-decoration: none;
+  color: blue;
+}
+
+.linkapaginaseleccionargentina:hover{
+  color: white;
+  background-color: rgba(135, 206, 235, 0.5);
+  border-radius: 20px;
+  transform: scale(3);
+}

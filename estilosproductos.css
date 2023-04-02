@@ -1,0 +1,411 @@
+/* body */
+
+body{
+  background: url(fondo6.jpg);
+  background-size: 100%;
+  background-repeat: round;
+}
+
+/* navbar */
+
+#header-img{
+  width: 93.5px;
+  height: 93.5px;
+  animation-name: animacionpelota;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+.nav-bar{
+  display:flex;
+  flex-direction: row;
+  width: 500px;
+  height: 50px;
+  margin-left: 132%;
+  margin-top: 33px;
+}
+
+header{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.navbartiposdepelotas{
+  margin-right: 30px;
+  text-decoration: none;
+  color: blue;
+  font-family: 'Cinzel', serif;
+  border-radius: 5px;
+  height: 20px;
+}
+
+.navbarprecios{
+  margin-right: 30px;
+  text-decoration: none;
+  color: blue;
+  font-family: 'Cinzel', serif;
+  border-radius: 5px;
+  height: 20px;
+}
+
+.navbarseccionbotines{
+  text-decoration: none;
+  color: blue;
+  font-family: 'Cinzel', serif;
+  border-radius: 5px;
+  height: 20px;
+}
+
+.navbartiposdepelotas:hover{
+background-color: green;
+transition: 2s;
+}
+
+.navbarprecios:hover{
+background-color: green;
+transition: 2s;
+}
+
+.navbarseccionbotines:hover{
+background-color: green;
+transition: 2s;
+}
+
+@media (max-width: 400){
+    p{
+        color: red;
+    }
+  }
+
+@keyframes animacionpelota{
+
+  50%{
+   transform: translatey(110px);
+  }
+}
+
+/* titulo principal */
+.primertitulo{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 29px;
+  box-shadow: 20px 0px 0pxrgba(255, 0, 0, 0.5);
+  margin-bottom: 30px;
+}
+
+/* ingreso de correo y boton */
+#form{
+  display: grid;
+  grid-template-rows: 20px 20px;
+  grid-row-gap: 5px;
+  justify-content: center;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.correo{
+width: 450px;
+height: 15px;
+font-family: 'Nerko One', cursive;
+}
+
+#submit{
+  background-color: rgba(0,255,0,1);
+  border-color: yellow;
+  border-radius: 20px;
+  border-width: 3px;
+  width: 150px;
+  font-size: 18px;
+  font-family: 'Permanent Marker', cursive;
+  font-weight: bolder;
+  margin-top: 20px;
+}
+
+#submit:hover{
+    background-color: green;
+    color: white;
+    border-color: orange;
+    transition: 0.0005s;
+}
+
+/* grilla principal de iconos y descripcion  */
+
+.grilla{
+  display: grid;
+  grid-template-areas:
+  "icono1 titulo1 titulo1"
+  "icono1 parrafo1 parrafo1"
+  "icono2 titulo2 titulo2"
+  "icono2 parrafo2 parrafo2"
+  "icono3 titulo3 titulo3"
+  "icono3 parrafo3 parrafo3";
+  margin-top: 40px;
+  margin-left:133px;
+  margin-bottom: 40px;
+}
+
+.primericono{
+  grid-area: icono1;
+  align-self: center;
+  justify-self: center;
+}
+
+.titulomaterialespremium{
+  grid-area: titulo1;
+  font-family: 'Hanalei Fill', cursive;
+
+}
+
+.subtitulomaterialespremium{
+  grid-area: parrafo1;
+  font-family: 'Gloria Hallelujah', cursive;
+
+}
+
+.icono2{
+  grid-area: icono2;
+  align-self: center;
+  justify-self: center;
+}
+
+.enviorapido{
+  grid-area: titulo2;
+  font-family: 'Hanalei Fill', cursive;
+
+}
+
+.nosaseguramos{
+  grid-area: parrafo2;
+  font-family: 'Gloria Hallelujah', cursive;
+
+}
+
+.icono3{
+  grid-area: icono3;
+  align-self: center;
+  justify-self: center;
+}
+
+.titulosegurodecalidad{
+  grid-area: titulo3;
+  font-family: 'Hanalei Fill', cursive;
+
+}
+
+.subtituloporcadacompra{
+  grid-area: parrafo3;
+  font-family: 'Gloria Hallelujah', cursive;
+
+}
+
+.rojo{
+  color:red;
+}
+
+.marron{
+  color: brown;
+}
+
+.verde{
+  color:green;
+}
+
+/* video */
+
+#how-it-works{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+/* paquetes */
+
+.paquetes{
+  display: flex;
+  flex-direction: row;
+  margin-top: 55px;
+  margin-left: 50px;
+  text-align: center;
+}
+
+.packadidas{
+  border-style: solid;
+  border-color: green;
+  border-width: 2px;
+  width: 270px;
+  height: 280px;
+  margin-left: 70px;
+  margin-right: 50px;
+  background-color: rgba(155, 155, 155, 0.5);
+}
+
+.packnike{
+  border-style: solid;
+  border-color: green;
+  border-width: 2px;
+  width: 270px;
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: rgba(155, 155, 155, 0.5);
+}
+
+.packumbro{
+  border-style: solid;
+  border-color: green;
+  border-width: 2px;
+  width: 270px;
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: rgba(155, 155, 155, 0.5);
+}
+
+.titulopackadidas{
+ background-color: rgba(255, 128, 0, 0.2);
+ height: 30px;
+font-size: 20px;
+font-family: 'Permanent Marker', cursive;
+
+
+}
+
+.titulopacknike{
+ background-color: rgba(255, 128, 0, 0.2);
+ height: 30px;
+ font-size: 20px;
+ font-family: 'Permanent Marker', cursive;
+
+}
+
+.titulopackumbro{
+background-color: rgba(255, 128, 0, 0.2);
+height: 30px;
+font-size: 20px;
+font-family: 'Permanent Marker', cursive;
+
+}
+
+
+.preciodepack1{
+  margin-top: 30px;
+  font-family: 'Orbitron', sans-serif;
+
+}
+
+.preciodepack2{
+  margin-top: 30px;
+  font-family: 'Orbitron', sans-serif;
+
+}
+
+.preciodepack3{
+  margin-top: 30px;
+  font-family: 'Orbitron', sans-serif;
+
+}
+
+.botonadidas{
+background-color: rgba(0, 255, 0, 0.2);
+width: 140px;
+height: 40px;
+border-radius: 20px;
+font-family: 'La Belle Aurore', cursive;
+font-size: 21px;
+}
+
+.botonnike{
+background-color: rgba(0, 255, 0, 0.2);
+width: 140px;
+height: 40px;
+border-radius: 20px;
+font-family: 'La Belle Aurore', cursive;
+font-size: 21px;
+}
+
+.botonumbro{
+background-color: rgba(0, 255, 0, 0.2);
+width: 140px;
+height: 40px;
+border-radius: 20px;
+font-family: 'La Belle Aurore', cursive;
+font-size: 21px;
+}
+
+.botonadidas:hover{
+background-color: rgba(0, 255, 0, 0.6);
+transition: 2s;
+}
+
+.botonnike:hover{
+background-color: rgba(0, 255, 0, 0.6);
+transition: 2s;
+}
+
+.botonumbro:hover{
+background-color: rgba(0, 255, 0, 0.6);
+transition: 2s;
+}
+
+.descripcionpack1{
+  font-family: 'Kalam', cursive;
+}
+
+.descripcionpack2{
+  font-family: 'Kalam', cursive;
+}
+
+.descripcionpack3{
+  font-family: 'Kalam', cursive;
+}
+
+/* pie de pagina  */
+
+.piefinal{
+  background-color: rgba(125, 125, 125, 0.3);
+  width: 85%;
+  margin-left: 7.5%;
+  margin-right: 10%;
+  height: 100px;
+  }
+
+.pieflex1{
+  display: flex;
+  margin-left: 65%;
+  @media (max-height: 500px){
+    margin-left: 50%;
+  }
+}
+
+.privacidad{
+  margin-top: 15px;
+  margin-right: 30px;
+  text-decoration: none;
+  color: blue;
+  font-family: 'Gloria Hallelujah', cursive;
+
+}
+
+.terminos{
+  margin-top: 15px;
+  margin-right: 30px;
+  text-decoration: none;
+  color: blue;
+  font-family: 'Gloria Hallelujah', cursive;
+
+}
+
+.contacto{
+  margin-top: 15px;
+  text-decoration: none;
+  color: blue;
+  font-family: 'Gloria Hallelujah', cursive;
+
+}
+
+.pieflex2{
+  margin-left: 70%;
+  font-family: 'Raleway', sans-serif;
+  margin-bottom: 20px;
+}
