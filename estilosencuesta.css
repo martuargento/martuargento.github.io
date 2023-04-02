@@ -1,0 +1,90 @@
+/* body */
+body{
+  background: url(https://img.freepik.com/vector-gratis/fondo-semitono-onda-abstracta_460848-10177.jpg?w=2000);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+/* estilos totales del formulario */
+.container{
+  background: rgba(0, 255, 0, 0.5);
+  border-radius: 30px;
+  font-family: 'Hanalei Fill', cursive;
+}
+
+/* titulo principal */
+.tituloprincipal{
+  font-family: 'Fredoka One', cursive;
+  font-size: 35spx;
+}
+
+#description{
+  background-color: rgba(0, 0, 255  , 0.08);
+  margin-bottom: 35px;
+  margin-left: 120px;
+  margin-right: 120px;
+  border-radius: 20px;
+  font-family: 'Satisfy', cursive;
+  font-size: 19px;
+}
+
+/* formulario */
+.form-nombre{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.form-correo{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.form-edad{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#pregunta1{
+  margin-top: 50px;
+}
+
+#ultimapregunta{
+  margin-top: 50px;
+}
+
+.introducircomentario{
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 20px;
+  text-align: left;
+  width: 500px;
+  height: 150px;
+}
+
+.introducircomentario::placeholder{
+  line-height: 120px;
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Great Vibes', cursive;
+}
+
+/* Boton final */
+.submit-button{
+  background-color: rgba(200, 255, 200, 0.5);
+  border-radius: 20px;
+  font-size: 25px;
+  width: 180px;
+  height: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 0px;
+  font-family: 'Courgette', cursive;
+}
+
+.submit-button:hover{
+  background-color: rgba(255, 0, 0, 0.7);
+}
+
+.submit-button:active{
+  background-color: rgba(255, 0, 0, 0.9);
+}
