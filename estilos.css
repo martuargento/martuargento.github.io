@@ -1,0 +1,534 @@
+/* body */
+body{
+  background-color: yellow;
+  max-width: 100%;
+}
+
+@media (max-height: 800px) {
+  font-size: 10px;
+}
+
+
+/* navbar */
+
+.Listadenavegacion{
+  display: flex;
+  flex-direction: row;
+  margin-left: 58%;
+  width: 100%;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 20px;
+  border-bottom: 0px;
+}
+
+.sobremi{
+text-decoration: none;
+}
+
+.sobremi:hover{
+background-color: rgba(255, 0, 0, 0.5);
+border-radius: 5px;
+transition: 0.7s;
+}
+
+.trabajo{
+margin-left: 40px;
+text-decoration: none;
+}
+
+.trabajo:hover{
+background-color: rgba(255, 0, 0, 0.5);
+border-radius: 5px;
+transition: 0.7s;
+}
+
+.contacto{
+margin-left: 40px;
+text-decoration: none;
+}
+
+.contacto:hover{
+background-color: rgba(255, 0, 0, 0.5);
+border-radius: 5px;
+transition: 0.7s;
+}
+
+
+/* Sector de bienvenida */
+
+.bienvenidadelaseccion{
+  width: 100%;
+  height: 800px;
+  text-align: center;
+  margin-top: 35px;
+  background-color: black;
+}
+
+.titulomasimportante{
+  position: absolute;
+  top: 300px;
+  left: 80px;
+  right: 80px;
+  bottom: 80px;
+  font-size: 70px;
+  color: white;
+  font-family: 'Hanalei Fill', cursive;
+}
+
+.subtitulomasimportante{
+  position: absolute;
+  top: 430px;
+  left: 80px;
+  right: 80px;
+  bottom: 80px;
+  font-size: 30px;
+  color:red;
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+
+/* seccion de proyectos */
+
+.grillatotal{
+background-color: red;
+margin-top: 0px;
+width: 100%projects-section;
+}
+
+.estossonmisproyectos{
+  position: relative;
+  top: 30px;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 70px;
+  font-size: 40px;
+  font-family: 'Alfa Slab One', cursive;
+  color: white;
+}
+
+.proyectosgrilla{
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  grid-template-rows: 20% 20% 20%;
+  grid-template-areas:
+  "proyecto1 proyecto2 proyecto3"
+  "proyecto4 proyecto5 proyecto6";
+  text-align: center;
+  grid-gap: 50px 30px;
+  width: 100%;
+}
+
+
+/* Inicio de proyecto 1 */
+.divproyecto1{
+  grid-area: proyecto1;
+  max-width: 100%;
+  height: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin-left: 35px;
+}
+
+.imagendeproyecto1{
+  width: 100%;
+  height: 300px;
+  }
+
+  .botonproyecto1{
+    position: relative;
+    top: -22px;
+    background-color: rgba(0, 255, 255, 0.5);
+    width: 100%;
+    height: 50px;
+    color: white;
+    font-family: 'Fragment Mono', monospace;
+    font-size: 17px;
+    line-height: 45px;
+    text-decoration: none;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  
+  }
+
+  /* Fin de proyecto 1 */
+
+  /* Inicio de proyecto 2 */
+
+.divproyecto2{
+  grid-area: proyecto2;
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.imagendeproyecto2{
+  width: 100%;
+  height: 300px;
+  }
+
+.botonproyecto2{
+  position: relative;
+  top: -22px;
+  background-color: rgba(0, 255, 255, 0.5);
+  width: 100%;
+  height: 50px;
+  color: white;
+  font-family: 'Fragment Mono', monospace;
+  font-size: 17px;
+  line-height: 45px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+
+}
+
+/* Fin de proyecto 2 */
+
+/* Inicio de proyecto 3 */
+.divproyecto3{
+  grid-area: proyecto3;
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.imagendeproyecto3{
+  width: 100%;
+  height: 300px;
+}
+
+.botonproyecto3{
+  position: relative;
+  top: -22px;
+  background-color: rgba(0, 255, 255, 0.5);
+  width: 100%;
+  height: 50px;
+  color: white;
+  font-family: 'Fragment Mono', monospace;
+  font-size: 17px;
+  line-height: 45px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+/* Fin de proyecto 3 */
+
+/* Inicio de proyecto 4 */
+
+.divproyecto4{
+  grid-area: proyecto4;
+  width: 91%;
+  height: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin-top: 150px;
+  margin-left: 35px;
+}
+
+.imagendeproyecto4{
+  width: 100%;
+  height: 300px;
+  }
+
+.botonproyecto4{
+  position: relative;
+  top: -22px;
+  background-color: rgba(0, 255, 255, 0.5);
+  width: 100%;
+  height: 50px;
+  color: white;
+  font-family: 'Fragment Mono', monospace;
+  font-size: 17px;
+  line-height: 45px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+
+/* Fin de proyecto 4 */
+
+/* Inicio de proyecto 5 */
+.divproyecto5{
+  grid-area: proyecto5;
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin-top: 150px;
+}
+
+.imagendeproyecto5{
+  width: 100%;
+  height: 300px;
+}
+
+.botonproyecto5{
+  position: relative;
+  top: -22px;
+  background-color: rgba(0, 255, 255, 0.5);
+  width: 100%;
+  height: 50px;
+  color: white;
+  font-family: 'Fragment Mono', monospace;
+  font-size: 17px;
+  line-height: 45px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+/* Fin de proyecto 5 */
+
+/* Inicio de proyecto 6 */
+.divproyecto6{
+  grid-area: proyecto6;
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin-top: 150px;
+}
+
+.imagendeproyecto6{
+width: 100%;
+height: 300px;
+}
+
+.botonproyecto6{
+  position: relative;
+  top: -22px;
+  background-color: rgba(0, 255, 255, 0.5);
+  width: 100%;
+  height: 50px;
+  color: white;
+  font-family: 'Fragment Mono', monospace;
+  font-size: 17px;
+  line-height: 45px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+/* Fin de proyecto 6 */
+
+
+/* Inicio oton Mostrar todo */
+.botonmostrartodo{
+  position: absolute;
+  left: 530px;
+  right: 520px;
+  top: 1855px;
+  width: 200px;
+  font-size: 20px;
+  font-family: 'Alfa Slab One', cursive;
+  color: white;
+  text-align: center;
+  background-color: rgba(0, 255, 255, 0.5);
+  text-decoration: none;
+  border-radius: 25px;
+}
+
+/* Fin de boton Mostrar todo */
+
+/* inicio Hover de proyectos */
+
+.botonproyecto1:hover{
+background-color: rgba(0, 255, 255, 0.7);
+transition: 2s;
+}
+
+.botonproyecto2:hover{
+background-color: rgba(0, 255, 255, 0.7);
+transition: 2s;
+}
+
+.botonproyecto3:hover{
+background-color: rgba(0, 255, 255, 0.7);
+transition: 2s;
+}
+
+.botonproyecto4:hover{
+background-color: rgba(0, 255, 255, 0.7);
+transition: 2s;
+}
+
+.botonproyecto5:hover{
+background-color: rgba(0, 255, 255, 0.7);
+transition: 2s;
+}
+
+.botonproyecto6:hover{
+background-color: rgba(0, 255, 255, 0.7);
+transition: 2s;
+}
+
+.botonmostrartodo:hover{
+background-color: rgba(0, 255, 255, 0.7);
+transition: 2s;
+}
+
+/* Fin de Hover de proyectos */
+
+
+/* Inicio de Hipervinculos de proyectos */
+.hipervinculoproyecto1{
+text-decoration: none;
+width: 100%;
+}
+
+.hipervinculoproyecto2{
+text-decoration: none;
+width:100%;
+}
+.hipervinculoproyecto3{
+text-decoration: none;
+width: 100%;
+}
+.hipervinculoproyecto4{
+text-decoration: none;
+width: 100%;
+}
+.hipervinculoproyecto5{
+text-decoration: none;
+width: 100%
+}
+.hipervinculoproyecto6{
+text-decoration: none;
+width: 100%
+}
+
+/* Fin de hipervinculos de proyectos */
+
+
+/* seccion de contacto */
+.secciondecontacto{
+  background-color: rgba(0, 255, 0, 0.2);
+  width: 100%;
+  height: 800px;
+  text-align: center;
+  margin-top: 0px;
+}
+
+.titulocontacto{
+  position: absolute;
+  top: 2120px;
+  left: 80px;
+  right: 80px;
+  bottom: 80px;
+  font-size: 70px;
+  color: rgba(0, 0, 0, 0.8);
+  font-family: 'Cinzel', serif;
+}
+
+.titulocontacto:hover{
+transform: scale(1.4);
+top: 2090px;
+left: 80px;
+right: 80px;
+bottom: 80px;
+transition: 5s;
+}
+
+.subtitulocontacto{
+  position: absolute;
+  top: 2240px;
+  left: 80px;
+  right: 80px;
+  bottom: 80px;
+  font-size: 30px;
+  color: rgba(0, 0, 0, 0.8);
+  font-family: 'La Belle Aurore', cursive;
+}
+
+.linksdecontacto{
+  position: absolute;
+  top: 2500px;
+  left: 0px;
+  right: 0px;
+  bottom: 80px;
+  font-size: 40px;
+  width: 100%;
+  color: rgba(0, 0, 0, 0.1);
+  font-family: 'Hanalei Fill', cursive;
+}
+
+.facebook{
+  color:rgba(0, 0, 255,1);
+  text-decoration: none;
+}
+
+.github{
+  color:rgba(128, 0, 255,0.9);
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.twitter{
+  color: rgba(64, 207, 255,0.9);
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.correo{
+  color: rgba(28, 27, 23,0.9);
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.llamame{
+  color: green;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.facebook:hover{
+  color:rgba(0, 0, 255,0.8);
+}
+
+.github:hover{
+color:rgba(128, 0, 255,0.6);
+}
+
+.twitter:hover{
+  color: rgba(64, 207, 255,0.6);
+}
+
+.correo:hover{
+color: rgba(28, 27, 23,0.7);
+}
+
+.llamame:hover{
+color: rgba(0, 143, 57, 1);
+}
+
+
+/* pie final de pagina */
+.piefinal{
+  display: flex;
+  border-top: 12px;
+  border-bottom: 8px;
+  border-style: solid;
+}
+
+.aviso{
+margin-left: 100px;
+font-size: 30px;
+font-family: 'Great Vibes', cursive;
+}
+
+.creadopor{
+margin-left:500px;
+font-size: 20px;
+font-family: 'Pacifico', cursive;
+}
+
+.nombre{
+  text-decoration: none;
+}
+
+.nombre:hover{
+  color:rgba(0, 0, 255,0.8);
+}
+
+/* cosas que no pude hacer: */
+/* centrar el texto verticalmente en los botones de los proyectos  */
+/* quitar subrayado de botones de los proyectos */
+/* hacer que aumente de tamaño facebook, github, twitter,etc al pasar el mouse sobre él */
